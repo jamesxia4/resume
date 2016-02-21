@@ -4,7 +4,7 @@
   "resume_title": "夏元昉 - 个人简历",
   "name": "夏元昉",
   "repo": "https://github.com/jamesxia4/resume.git",
-  "job_description": ["数据挖掘工程师", "ETL工程师"],
+  "job_description": ["数据挖掘工程师", "数据仓库工程师"],
   "contact": {
     "email": "johnnyrxia4@126.com",
     "wechat": {
@@ -28,26 +28,28 @@
 
   }, {
     "type": "zhihu",
-    "url": "https://www.zhihu.com/people/xia-yuan-fang-22"
+    "url": "http://www.zhihu.com/people/xia-yuan-fang-22/"
   }],
   "education": [{
-    "type": "undergraduate",
-    "name": "上海交通大学",
-    "major": "计算机科学与技术",
-    "start": "2010",
-    "end": "2014",
-    "honor": [
-      "MCM/ICM 2013 数学建模比赛二等奖",
-    ]
-  },
-  {
     "type": "graduate",
     "name": "浙江大学",
     "major": "计算机科学与技术",
     "start": "2014",
     "end": "至今",
     "honor": [
-      "MCM/ICM 2013 数学建模比赛二等奖",
+      "TAC 2015 Entity Linking and Discovery Track 第二名",
+      "EI论文"
+    ]
+  },
+  {
+    "type": "undergraduate",
+    "name": "上海交通大学",
+    "major": "计算机科学与技术",
+    "start": "2010",
+    "end": "2014",
+    "honor": [
+      "MCM/ICM 2013 美国大学生数学建模竞赛 二等奖",
+      "SCI论文"
     ]
   }],
   "language": [{
@@ -64,59 +66,67 @@
     "description": [
       "能流畅阅读英文专业书籍、文档及其他资料",
       "可无字幕观看 MOOC 课程、开发者大会视频",
-      "能够在英文邮件列表、Stack Overflow 等社区正常交流"
-      "2011年本科生英语水平考全校第7，大英免修"
+      "能够在英文邮件列表、Stack Overflow 等社区正常交流",
+      "2011年校本科生英语水平考全校第7,大英免修"
     ]
   }],
-
-
-  "experience": [
-  {
+  "experience": [{
     "type": "internship",
     "techtype": "frontend",
-    "place": "滴滴大数据研究院", 
-    "start": "2016.01", 
-    "end": "至今", 
-    "name": "ETL工程师(实习)", 
-    "description": [ 
-      "参与滴滴代驾客户端自营司机B面大数据支持与Hive开发，编写了Perl脚本实现了每日定时数据导出至线上MySQL数据库", 
-      "参与快的代驾历史代码优化与迁移，解决了部分Hive代码迁移后运行超时的问题", 
-      "独立完成滴滴代驾乘客画像一期Hive开发与性能优化",
-      "独立完成滴滴-快的代金券系统Hive代码对接",
-      "独立完成滴滴代驾新代金券系统日报表、累计报表、新老用户报表开发，参与了需求评审会" 
-    ], 
-    "stack": ["Hive", "SQL/MySQL","Perl", "Bash"], "compatibility": "IE8+" 
-  }, 
-  { "type": "internship", 
-    "techtype": "frontend", 
-    "place": "网易游戏用户体验中心", 
-    "start": "2015.08", 
-    "end": "2015.12", 
-    "name": "数据挖掘实习生", 
-    "description": [ 
-    "调研了市面上众包语料标注平台竞品的情况，使用Axure独立完成了\"GDAS舆情平台-语料标注系统\"的原型开发", 
-    "与UI沟通需求，参与标注稿的设计与功能敲定",
-    "独立开发了标注系统的前端(jQuery+Bootstrap)与后端部分，项目已上线",
-    "编写了Python自动化脚本，根据标注需求Excel表格从已爬取的游戏百度贴吧评论抽样生成标注数据集"  
-    ], 
-    "stack": ["JavaScript", "jQuery", "Bootstrap", "Java", "SQL/MySQL"], "compatibility": "IE8+" 
-  }, 
-  {
+    "place": "滴滴出行大数据研究院-代驾事业线",
+    "start": "2016.02",
+    "end": "至今",
+    "name": "数据仓库开发",
+    "description": [
+      "开发支持 i18n 的数据可视化组件",
+      "解决外部系统遗留的 bug 及浏览器兼容问题（`IE7+`）",
+      "使用 `SVG` 等技术开发内部系统数据可视化图表"
+    ],
+    "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
+    "compatibility": "IE8+"
+  }, {
+    "type": "internship",
+    "techtype": "frontend",
+    "place": "埃森哲广州 CDC",
+    "start": "2014.08",
+    "end": "2014.09",
+    "name": "前端开发",
+    "description": [
+      "参与某集团内部办公系统（OA）的前端开发，基于 `jQuery UI` 与 `Bootstrap` 实现前端组件及数据交互",
+      "解决遗留的 bug 及浏览器兼容问题（`IE8+`）",
+      "使用 `Grunt` 及 `Less` 完成皮肤开发"
+    ],
+    "stack": ["jqueryui", "bootstrap", "jquery", "grunt", "less"],
+    "compatibility": "IE8+"
+  }, {
+    "type": "internship",
+    "techtype": "nodejs",
+    "place": "东西科技",
+    "start": "2014.03",
+    "end": "2014.06",
+    "name": "Node.js 开发",
+    "description": [
+      "开发并维护封装微信公众平台 API 的 `Express 中间件`",
+      "使用 `Mocha`、`Chai` 及 `CoffeeScript` 编写单元测试",
+      "结合 `MongoDB` 开发微信公众平台 Demo",
+      "编写 `bash` 脚本，使用 `ApacheBench` 对后端程序进行压力测试与资源使用分析，辅助服务器选型"
+    ],
+    "stack": ["nodejs", "express", "mocha", "chai", "coffeescript", "mongodb"]
+  }, {
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
     "name": "Resume",
-    "source": "https://github.com/jamesxia4/resume",
-    "demo": "http://www.jamesxia4.me/resume/",
+    "source": "https://github.com/joyeecheung/resume",
+    "demo": "http://joyeecheung.github.io/resume/",
     "description": [
       "这份在线简历的生成器",
       "从 JSON 读取数据，使用 `Jade` 模板生成 HTML，`Less` 生成**响应式**样式",
-      "使用 `Gulp` 驱动页面生成、架设本地服务器、部署"
+      "使用 `Gulp` 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages"
     ],
     "stack": ["jade", "less", "gulp"],
     "compatibility": "IE9+"
-  }, 
-  {
+  }, {
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
@@ -131,8 +141,7 @@
     ],
     "stack": ["jade", "postcss", "markdown",  "webpack", "gulp"],
     "compatibility": "IE9+"
-  }, 
-  {
+  }, {
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
@@ -146,8 +155,6 @@
     "stack": ["three.js", "mongodb", "express"],
     "compatibility": "IE10+"
   }],
-
-
   "skills": [{
     "type": "frontend",
     "item": [{
@@ -192,7 +199,6 @@
     }, {
       "summary": "其他",
       "description": [
-        "使用 `Tornado` / `Flask`（`Python`） 搭建过简单的服务器",
         "有使用 `MongoDB` / `MySQL` 数据库，`Redis` 缓存，`nginx` 反向代理的经验",
         "了解 `HTTP`（1.x / 2）、 `TCP/IP`、 `WebSocket` 等协议"
       ]
@@ -200,13 +206,12 @@
   }, {
     "type": "miscellaneous",
     "item": [
-      "三年 `Linux` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本",
-      "熟悉多种平台与编译环境下的 `C` / `C++` 及其新标准，编写过简单的解释器、数据库引擎、3D 图形程序及 Node.js 扩展，能阅读 `WebKit` / `Blink、V8` 等常接触项目的源代码并加以利用",
-      "熟悉 `Python`，能实现简单的数据及图像处理工具、自动化脚本、爬虫、机器学习算法及分布式程序（参见 GitHub）",
-      "具备基本的 `Web 安全`知识（`X.509` / `XSS` / `CSRF` 等）",
-      "能够使用 `LaTeX` 及 `Markdown` 编写得体的中英文文档或论文，具备良好的技术交流能力",
-      "日常使用 `Git` 与 `Sublime Text` / `Vim` 进行开发，也乐于尝试新工具",
-      "能够使用 `Photoshop` / `Illustrator` 完成简单的设计"
+      "五年 `Linux` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本，负责实验室集群日常维护",
+      "熟悉 `Python` / `Perl`,能实现文本预处理、自动化脚本、爬虫、机器学习算法以及Django开发",
+      "能够使用 `LaTeX`、`Markdown`、`Sphinx`编写得体的中英文文档或论文，具备良好的技术交流能力",
+      "熟悉`Navicat`，日常使用 `Git` 与 `Vim` / `IntelliJ` / `WebStorm`进行开发与维护，也乐于尝试新工具",
+      "能够使用 `Axure`完成简单原型的设计制作，能使用动态模板完成较为复杂的交互效果",
+      "能够使用 `Photoshop` / `MarkMan`对交互稿完成简单的切片与标注"
     ]
   }]
 }
