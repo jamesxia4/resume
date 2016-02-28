@@ -5,10 +5,12 @@ module.exports = {
     skill_type: {
         "frontend": "Frontend Development",
         "backend": "Backend Development",
-        "miscellaneous": "Miscellaneous"
+        "miscellaneous": "Miscellaneous",
+        "data": "BI/Data Warehouse/Data Mining"
     },
     education_type: {
-        "undergraduate": "(Bachelor's degree)"
+        "undergraduate": "(Bachelor's degree)",
+        "graduate": "(Master's degree)"
     },
     link_type: {
         "zhihu": "Zhihu",

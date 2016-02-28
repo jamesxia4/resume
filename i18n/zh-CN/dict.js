@@ -5,10 +5,12 @@ module.exports = {
     skill_type: {
         "frontend": "Web 前端",
         "backend": "Web 后端",
-        "miscellaneous": "其他"
+        "miscellaneous": "其他",
+        "data": "商业智能/数据仓库/数据挖掘"
     },
     education_type: {
-        "undergraduate": "（本科）"
+        "undergraduate": "（本科）",
+        "master": "（硕士）"
     },
     link_type: {
         "zhihu": "知乎",
