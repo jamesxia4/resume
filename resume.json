@@ -8,8 +8,7 @@
   "contact": {
     "email": "johnnyrxia4@126.com",
     "wechat": {
-      "id": "jamesxia4",
-      "qrcode": "static/wechat.svg"
+      "id": "jamesxia4"
     },
     "github": {
       "id": "jamesxia4"
@@ -31,7 +30,7 @@
     "url": "http://www.zhihu.com/people/xia-yuan-fang-22/"
   }],
   "education": [{
-    "type": "graduate",
+    "type": "master",
     "name": "浙江大学",
     "major": "计算机科学与技术",
     "start": "2014",
