@@ -16,7 +16,6 @@ block header
       ul.contact
         each item, key in contact
           +#{key}(item)
-        +responsive("wechat", contact.wechat, "visible-lt-sm invisible-print")
 
 block content
   article.content.row
