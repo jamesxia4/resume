@@ -3,11 +3,12 @@ module.exports = {
         "internship": "(internship)"
     },
     skill_type: {
+        "dw": "BI/Data Warehouse/Data Mining",
         "frontend": "Frontend Development",
         "backend": "Backend Development",
-        "miscellaneous": "Miscellaneous",
-        "data": "BI/Data Warehouse/Data Mining"
-    },
+        "algo": "Machine Learning Practice",
+        "miscellaneous": "Miscellaneous"
+            },
     education_type: {
         "undergraduate": "(Bachelor's degree)",
         "graduate": "(Master's degree)"

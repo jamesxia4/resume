@@ -60,7 +60,7 @@
 }],
   "experience": [{
     "type": "internship",
-    "techtype": "data",
+    "techtype": "dw",
     "place": "滴滴出行大数据研究院-代驾数仓",
     "start": "2016.02",
     "end": "至今",
@@ -69,13 +69,13 @@
       "使用 `Hive`、 `Perl`、`Python`完成代驾数据仓库开发",
       "独立完成了`乘客画像`、滴滴-快的代金券`数仓对接`与新版报表开发、\"暗夜\"`网安`数仓开发、`客服门户`一期等开发工作",
       "参与了快的数仓`遗留代码`向滴滴集群的迁移工作，独立完成了部分代码的`优化与修复`",
-      "负责`核心KPI`报表、`司机画像`、`城市运力热力图`、快的`UDF`的维护与调度",
+      "负责`核心KPI`报表、`司机画像`、`城市运力热力图与效果评估`、快的`UDF`的维护与调度",
       "参与上游`需求对接`与下游后台开发`联调`"
       ],
     "stack": ["Hive","Perl","Python"]
   }, {
     "type": "internship",
-    "techtype": "data",
+    "techtype": "dw",
     "place": "网易游戏GameUX-CoolData研究组",
     "start": "2015.08",
     "end": "2016.01",
@@ -84,69 +84,73 @@
       "调研竞品 `腾讯WeTest` 舆情监控系统语料标注模块、`数据堂`众标平台",
       "使用 `Sphinx`、`Markdown`、`MindManager` 完善设计文档、使用 `Axure` 独立完成原型开发;根据需求与原型稿完成了数据库设计",
       "与UI配合迭代交互稿，学习使用 `MarkMan` 与 `PS` 完成部分交互稿切片与标注",
-      "使用`Java`、`JS`、`SQL` 独立完成了后端与前端的开发，使用`JUnit`、`JMock`完成单元测试",
+      "使用`Java`、`JS`、`SQL` 独立完成了后端与前端的开发，使用`JUnit`、`JMock`完成测试",
       "参与代码集成、联调、后期迭代，了解了 `Spring`框架",
       "使用`Python`编写了自动化脚本对已爬取的游戏评论抽样生成标注数据集,生成算法评价"
     ],
     "stack": ["Java","JavaScript","Python","SQL/MySQL","Bootstrap","jQuery","JUnit","JMock","Axure"]
   }],
-  "skills": [{
+  "skills": [
+  {
+    "type": "dw",
+    "item": [{
+      "summary": "`Hive`/`Hadoop`/`Perl`/`Python`",
+      "description": [
+        "熟悉`Hive HQL`，会写复杂的查询，了解`全量`/`增量`、`动态分区`、`竖表开发`、`竖表转横表`的原理，熟练运用`开窗函数`、`grouping sets`/`cube`/`rollup`，了解`UDF`开发，会用`Sqoop`同步数据",
+        "了解常见的HQL优化知识与技巧并能在项目中加以实践，会排查常见数据质量故障",
+        "熟练运用 `Perl` / `Python`开发ETL脚本，会用`hadoop fs`命令检查数据",
+        "熟悉`Bash`脚本开发，能开发常用的自动化脚本，熟练运用`nohup`/`head`/`tail`/`cat`/`wc`/`grep`等命令",
+        "有使用Python Requests库开发`爬虫`的经验,会用`正则`"
+      ]
+    }]
+  }
+  ,{
     "type": "frontend",
     "item": [{
-      "summary": "`HTML` / `CSS`",
-      "description": [
-        "能够编写语义化的 `HTML`，模块化的 `CSS`，实现较复杂的布局与动画",
-        "熟悉已标准化的 `HTML5` / `CSS3` 新特性，实验项目中能尝试使用未广泛实现的新标准"
+      "summary": "`Javascript`",
+      "description":[
+      "能熟练使用`jQuery`/`ECharts`/`D3.js`完成开发，会用`RequireJS`，会用`Chrome Web Tools`调试"
       ]
-    }, {
-      "summary": "`ECMAScript`（`JavaScript`）",
-      "description": [
-        "熟悉 `ECMAScript`（`JavaScript`），对 `JavaScript 引擎`及相关 JIT 技术有一定的了解",
-        "了解 `ECMAScript` 新标准与相关后处理工具并能在项目中使用"
-      ]
-    }, {
-      "summary": "`DOM` / `BOM` 及常见 `Web API`",
-      "description": [
-        "熟悉原生 `DOM` 与 `BOM` 的使用及相关标准（W3C / WHATWG），有桌面 / 移动端前端组件的开发经验",
-        "对 `WebGL` / `Web Workers` / `WebSocket` / `Web Components` / `SVG` 等 API 有一定的使用经验",
-        "阅读过 `WebKit` / `Blink` 源码中的部分实现，了解常见的 Web API **兼容性**问题及其解决方案"
-      ]
-    }, {
-      "summary": "前端工程实践",
-      "description": [
-        "使用 `Meteor` / `AngularJS` / `Polymer` 编写过简单的 CRUD SPA，了解 `Backbone.js` / `React` 及前端 `MV*` 模型",
-        "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制与扩展, 阅读过部分源代码",
-        "在项目中使用过 `Sea.js` / `RequireJS` / `Browserify` / `Bower` / `WebPack` 等多种模块化解决方案",
-        "在项目中使用过 `Less` / `Sass` / `PostCSS` / `CoffeeScript` / `TypeScript` 等预处理/后处理工具",
-        "日常使用 `Grunt` 或 `Gulp` 改进工作流",
-        "掌握基本的前端兼容性处理、性能优化知识与技巧，并能在项目中加以实践"
-      ]
+    }
+    ,{
+    "summary":"`HTML/CSS`",
+    "description":[
+    "能熟练使用`Bootstrap`完成简单的页面布局,能按照交互稿完成页面的开发"
+    ]
     }]
-  }, {
+  }
+  ,{
     "type": "backend",
     "item": [{
-      "summary": "`Node.js`",
+      "summary": "`Java(Spring)`/`Python(Django)`",
       "description": [
-        "能够使用 `Node.js API` / `Express` / `Koa` 搭建简单的后端程序与数据库交互、渲染模板及提供 `RESTful API`",
-        "了解异步 I/O 及事件驱动的服务器模型，掌握常见的**异步编程**解决方案",
-        "能编写简单的 `Express` / `Connect` / `Koa` 中间件，使用 `Mocha` 与 `Chai` 编写单元测试"
-      ]
-    }, {
-      "summary": "其他",
+        "能够使用 `Spring`/`Django` 搭建简单的后端与数据库交互及提供 `RESTful API`",
+        "能使用 `JUnit` 与 `JMock` 编写测试"]
+      },{
+      "summary": "`其他`",
       "description": [
-        "有使用 `MongoDB` / `MySQL` 数据库，`Redis` 缓存，`nginx` 反向代理的经验",
-        "了解 `HTTP`（1.x / 2）、 `TCP/IP`、 `WebSocket` 等协议"
-      ]
-    }]
-  }, {
+        "有使用 `MySQL`，`nginx` 的经验"]
+      }]
+   }
+  ,{
+     "type":"algo",
+     "item":[{
+       "summary":"`知识图谱`-`Slot filling&Entity Linking`",
+       "description":[
+       "使用`libsvm`与规则完成了维基百科Infobox `Slot-filling`算法",
+       "使用`朴素贝叶斯`实现了`实体链接`算法，TAC2015 EDL Task获得`第二名`"
+       ]
+     }]
+  }
+  ,{
     "type": "miscellaneous",
     "item": [
-      "五年 `Linux` 使用经验，熟悉常用命令与配置，能编写简单的 `bash` 脚本，负责实验室集群日常维护",
-      "熟悉 `Python` / `Perl`,能实现文本预处理、自动化脚本、爬虫、机器学习算法以及Django开发",
-      "能够使用 `LaTeX`、`Markdown`、`Sphinx`编写得体的中英文文档或论文，具备良好的技术交流能力",
-      "熟悉`Navicat`，日常使用 `Git` 与 `Vim` / `IntelliJ` / `WebStorm`进行开发与维护，也乐于尝试新工具",
-      "能够使用 `Axure`完成简单原型的设计制作，能使用动态模板完成较为复杂的交互效果",
-      "能够使用 `Photoshop` / `MarkMan`对交互稿完成简单的切片与标注"
+      "五年 `Linux` 使用经验，熟悉常用命令与配置",
+      "熟悉 `Python` / `Perl`，能实现自动化脚本、爬虫、机器学习算法",
+      "能够使用 `LaTeX`、`Markdown`、`Sphinx`编写文档",
+      "日常使用 `Git` 与 `Vim` / `IntelliJ` / `WebStorm`，也乐于尝试新工具",
+      "能够使用 `Axure`完成简单原型的设计制作",
+      "能够使用 `PS` / `MarkMan`对交互稿切片与标注"
     ]
   }]
 }

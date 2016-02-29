@@ -3,11 +3,12 @@ module.exports = {
         "internship": "（实习）"
     },
     skill_type: {
+        "dw": "商业智能/数据仓库/数据挖掘",
         "frontend": "Web 前端",
         "backend": "Web 后端",
-        "miscellaneous": "其他",
-        "data": "商业智能/数据仓库/数据挖掘"
-    },
+        "algo": "机器学习算法实践",
+        "miscellaneous": "其他"
+            },
     education_type: {
         "undergraduate": "（本科）",
         "master": "（硕士）"

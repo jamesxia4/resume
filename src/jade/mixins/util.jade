@@ -55,6 +55,8 @@ mixin skills_basic(item)
         dd.skills-item-description
           span!= highlight(desc)
 
+mixin skills_dw(item)
+  +skills_basic(item)(attributes)
 
 mixin skills_frontend(item)
   +skills_basic(item)(attributes)
@@ -63,6 +65,8 @@ mixin skills_frontend(item)
 mixin skills_backend(item)
   +skills_basic(item)(attributes)
 
+mixin skills_algo(item)
+  +skills_basic(item)(attributes)
 
 mixin skills_miscellaneous(item)
     ul.skills-description.skills-miscellaneous.timeline-content
