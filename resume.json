@@ -66,7 +66,7 @@
     "end": "至今",
     "name": "数据仓库开发",
     "description": [
-      "使用 `Hive`、 `Perl`、`Python`完成代驾数据仓库开发",
+      "使用 `Hive`/`Perl`/`Python`完成代驾数据仓库开发",
       "独立完成了`乘客画像`、滴滴-快的代金券`数仓对接`与新版报表开发、\"暗夜\"`网安`数仓开发、`客服门户`一期等开发工作",
       "参与了快的数仓`遗留代码`向滴滴集群的迁移工作，独立完成了部分代码的`优化与修复`",
       "负责`核心KPI`报表、`司机画像`、`城市运力热力图与效果评估`、快的`UDF`的维护与调度",
@@ -82,9 +82,9 @@
     "name": "数据工具开发",
     "description": [
       "调研竞品 `腾讯WeTest` 舆情监控系统语料标注模块、`数据堂`众标平台",
-      "使用 `Sphinx`、`Markdown`、`MindManager` 完善设计文档、使用 `Axure` 独立完成原型开发;根据需求与原型稿完成了数据库设计",
+      "使用 `Sphinx`/`Markdown`/`MindManager` 完善设计文档、使用 `Axure` 独立完成原型开发;根据需求与原型稿完成了数据库设计",
       "与UI配合迭代交互稿，学习使用 `MarkMan` 与 `PS` 完成部分交互稿切片与标注",
-      "使用`Java`、`JS`、`SQL` 独立完成了后端与前端的开发，使用`JUnit`、`JMock`完成测试",
+      "使用`Java`/`JS`/`SQL` 独立完成了后端与前端的开发，使用`JUnit`/`JMock`完成测试",
       "参与代码集成、联调、后期迭代，了解了 `Spring`框架",
       "使用`Python`编写了自动化脚本对已爬取的游戏评论抽样生成标注数据集,生成算法评价"
     ],
@@ -97,10 +97,10 @@
       "summary": "`Hive`/`Hadoop`/`Perl`/`Python`",
       "description": [
         "熟悉`Hive HQL`，会写复杂的查询，了解`全量`/`增量`、`动态分区`、`竖表开发`、`竖表转横表`的原理，熟练运用`开窗函数`、`grouping sets`/`cube`/`rollup`，了解`UDF`开发，会用`Sqoop`同步数据",
-        "了解常见的HQL优化知识与技巧并能在项目中加以实践，会排查常见数据质量故障",
+        "了解常见的`HQL优化`知识与技巧并能在项目中加以实践，会排查常见数据质量故障",
         "熟练运用 `Perl` / `Python`开发ETL脚本，会用`hadoop fs`命令检查数据",
         "熟悉`Bash`脚本开发，能开发常用的自动化脚本，熟练运用`nohup`/`head`/`tail`/`cat`/`wc`/`grep`等命令",
-        "有使用Python Requests库开发`爬虫`的经验,会用`正则`"
+        "有使用Python `Requests`库开发`爬虫`的经验,会用`正则`"
       ]
     }]
   }
@@ -109,7 +109,8 @@
     "item": [{
       "summary": "`Javascript`",
       "description":[
-      "能熟练使用`jQuery`/`ECharts`/`D3.js`完成开发，会用`RequireJS`，会用`Chrome Web Tools`调试"
+      "能熟练使用`jQuery`/`ECharts`/`D3.js`完成开发，会用`RequireJS`，会用`Chrome DevTools`调试",
+      "使用`Jade`/`Gulp`生成了`这份简历`（见`Github`）"
       ]
     }
     ,{
@@ -125,20 +126,20 @@
       "summary": "`Java(Spring)`/`Python(Django)`",
       "description": [
         "能够使用 `Spring`/`Django` 搭建简单的后端与数据库交互及提供 `RESTful API`",
-        "能使用 `JUnit` 与 `JMock` 编写测试"]
+        "能使用 `JUnit`/`JMock` 编写测试"]
       },{
       "summary": "`其他`",
       "description": [
-        "有使用 `MySQL`，`nginx` 的经验"]
+        "有使用 `MySQL`、`Apache` 的经验"]
       }]
    }
   ,{
      "type":"algo",
      "item":[{
-       "summary":"`知识图谱`-`Slot filling&Entity Linking`",
+       "summary":"`知识图谱-Slot filling/Entity Linking`",
        "description":[
        "使用`libsvm`与规则完成了维基百科Infobox `Slot-filling`算法",
-       "使用`朴素贝叶斯`实现了`实体链接`算法，TAC2015 EDL Task获得`第二名`"
+       "使用`朴素贝叶斯`实现了`实体链接`算法"
        ]
      }]
   }
@@ -147,7 +148,7 @@
     "item": [
       "五年 `Linux` 使用经验，熟悉常用命令与配置",
       "熟悉 `Python` / `Perl`，能实现自动化脚本、爬虫、机器学习算法",
-      "能够使用 `LaTeX`、`Markdown`、`Sphinx`编写文档",
+      "能够使用 `LaTeX`/`Markdown`/`Sphinx`编写文档",
       "日常使用 `Git` 与 `Vim` / `IntelliJ` / `WebStorm`，也乐于尝试新工具",
       "能够使用 `Axure`完成简单原型的设计制作",
       "能够使用 `PS` / `MarkMan`对交互稿切片与标注"
