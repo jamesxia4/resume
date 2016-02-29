@@ -97,7 +97,7 @@
       "summary": "`Hive`/`Hadoop`/`Perl`/`Python`",
       "description": [
         "熟悉`Hive HQL`，会写复杂的查询，了解`全量`/`增量`、`动态分区`、`竖表开发`、`竖表转横表`的原理，熟练运用`开窗函数`、`grouping sets`/`cube`/`rollup`，了解`UDF`开发，会用`Sqoop`同步数据",
-        "了解常见的`HQL优化`知识与技巧并能在项目中加以实践，会排查常见数据质量故障",
+        "了解常见的`HQL优化`技巧并能在项目中加以实践，会排查常见数据质量故障",
         "熟练运用 `Perl` / `Python`开发ETL脚本，会用`hadoop fs`命令检查数据",
         "熟悉`Bash`脚本开发，能开发常用的自动化脚本，熟练运用`nohup`/`head`/`tail`/`cat`/`wc`/`grep`等命令",
         "有使用Python `Requests`库开发`爬虫`的经验,会用`正则`"
