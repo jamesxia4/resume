@@ -84,8 +84,8 @@
       "调研竞品 `腾讯WeTest` 舆情监控系统语料标注模块、`数据堂`众标平台",
       "使用 `Sphinx`/`Markdown`/`MindManager` 完善设计文档、使用 `Axure` 独立完成原型开发;根据需求与原型稿完成了数据库设计",
       "与UI配合迭代交互稿，学习使用 `MarkMan` 与 `PS` 完成部分交互稿切片与标注",
-      "使用`Java`/`JS`/`SQL` 独立完成了后端与前端的开发，使用`JUnit`/`JMock`完成测试",
-      "参与代码集成、联调、后期迭代，了解了 `Spring`框架",
+      "使用`Servlet`/`jQuery`/`MySQL` 独立完成了后端与前端的开发，使用`JUnit`/`JMock`完成测试",
+      "参与代码集成、联调、后期迭代，了解了`Spring`框架",
       "使用`Python`编写了自动化脚本对已爬取的游戏评论抽样生成标注数据集,生成算法评价"
     ],
     "stack": ["Java","JavaScript","Python","SQL/MySQL","Bootstrap","jQuery","JUnit","JMock","Axure"]
@@ -109,14 +109,14 @@
     "item": [{
       "summary": "`Javascript`",
       "description":[
-      "能熟练使用`jQuery`/`ECharts`/`D3.js`完成开发，会用`RequireJS`，会用`Chrome DevTools`调试",
+      "熟练使用`jQuery`/`ECharts`/`D3.js`完成开发，会用`RequireJS`，会用`Chrome DevTools`调试",
       "使用`Jade`/`Gulp`生成了`这份简历`（见`Github`）"
       ]
     }
     ,{
     "summary":"`HTML/CSS`",
     "description":[
-    "能熟练使用`Bootstrap`完成简单的页面布局,能按照交互稿完成页面的开发"
+    "熟练使用`Bootstrap`完成简单的页面布局,能按照交互稿完成页面的开发"
     ]
     }]
   }
@@ -125,8 +125,8 @@
     "item": [{
       "summary": "`Java(Spring)`/`Python(Django)`",
       "description": [
-        "能够使用 `Spring`/`Django` 搭建简单的后端与数据库交互及提供 `RESTful API`",
-        "能使用 `JUnit`/`JMock` 编写测试"]
+        "会用 `Spring`/`Django` 搭建简单的后端与数据库交互及提供 `RESTful API`",
+        "会用 `JUnit`/`JMock` 编写测试"]
       },{
       "summary": "`其他`",
       "description": [
