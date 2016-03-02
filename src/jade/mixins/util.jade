@@ -20,6 +20,10 @@ mixin blog(data)
 mixin qrcode(data)
   img.qrcode-img(src=data.qrcode, alt=data.id)&attributes(attributes)
 
+mixin address(myAddr)
+  li.contact-address&attributes(attributes)= myAddr
+
+
 mixin section(sec_class, timeline)
   section(class=sec_class)
     .sec-title-wrapper
