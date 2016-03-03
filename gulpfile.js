@@ -4,7 +4,7 @@ var plugins = require('gulp-load-plugins')();
 var path = require('path');
 var gls = require('gulp-live-server');
 
-var server = gls.static('dist', 8000);
+var server = gls.static('dist', 8001);
 
 /**************** Utility **********************/
 function highlight(str) {

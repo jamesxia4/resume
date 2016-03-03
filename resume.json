@@ -54,17 +54,16 @@
     "end": "至今",
     "name": "数据仓库开发",
     "description": [
-      "使用 `Hive`/`Hadoop`/`Perl`/`Python`完成代驾数仓开发",
+      "使用 `Hive`/`Hadoop`/`Perl`/`Python` 完成代驾数仓开发",
       "参与代驾自营司机客户端日报开发，使用`动态分区`统计客户端每日累计在线时长计算日薪",
-      "独立完成`乘客画像`一期，了解了画像类开发常用指标，解决了`数据倾斜`问题",
-      "独立完成滴滴-快的代金券`数仓对接`与新版报表开发，使用了`grouping sets`/`rollup`/`cube`支持多维多层次分析",
+      "独立完成`乘客画像`一期，了解画像类开发常用指标，解决了`数据倾斜`问题",
+      "独立完成滴滴快的代金券`数仓对接`与券报表开发，使用 `grouping sets`/`rollup`/`cube` 支持多维多层次分析",
       "独立完成\"暗夜\"`网安`数仓开发，使用`开窗函数`实现了订单抽样",
-      "独立完成了`客服门户`一期，使用`Lateral View`与`UDTF`分层分析投诉原因",
-      "参与了快的数仓`遗留代码`向滴滴集群的迁移工作，独立完成了部分代码的`优化与修复`，例如:",
-      "`减少嵌套`层数、`select *`、先限分区再限字段、`先取数后计算`、`JVM`重用、参数调整",
-      "编写Python脚本，使用正则替换的方法实现了快的代码的批量迁移",
-      "日常负责`核心KPI`报表、`司机画像`、`城市运力热力图`、快的`UDF`的维护",
-      "参与数据质量检查，根据DW/DM层数据错误定位ODS层故障",
+      "独立完成`客服门户`一期，使用 `Lateral View`/`UDTF` 分层分析投诉原因",
+      "参与快的`遗留代码`向滴滴集群的迁移工作，独立完成部分代码的`性能优化`，使用`减少子查询`/`select *`/`先限分区再限字段`/`先取数后计算`/`JVM重用`/`参数调整`等方法解决迁移后超时的问题",
+      "编写`Python`脚本，使用`正则`替换的方法实现了快的代码的批量迁移",
+      "日常负责`核心KPI`报表、`司机画像`、`城市运力热力图`、快的 `UDF` 的维护",
+      "参与数据质量检查与故障定位",
       "参与上游`需求对接`与下游后台开发`联调`"
       ],
     "stack": ["Hive","Hadoop","Perl","Python"]
@@ -76,12 +75,12 @@
     "end": "2016.01",
     "name": "数据工具开发",
     "description": [
-      "调研竞品 `腾讯WeTest` 舆情监控系统语料标注模块、`数据堂`众标平台",
+      "调研竞品`腾讯 WeTest` 舆情监控系统语料标注模块、`数据堂`众标平台",
       "使用 `Sphinx`/`Markdown`/`MindManager` 完善设计文档、使用 `Axure` 独立完成原型开发、与UI配合迭代交互稿、完成数据库设计",
-      "基于`Spring`独立完成了后端开发，着重了解了`Spring DAO`，使用`JUnit`/`JMock`完成测试",
-      "根据交互稿基于`jQuery`独立完成了前端开发，手写了`进度条`，`卡片答题框`等部件",
+      "基于 `Spring` 独立完成后端开发，着重了解了 `Spring DAO` ，使用 `JUnit`/`JMock` 完成测试",
+      "根据交互稿基于 `jQuery` 独立完成前端开发，手写了`进度条`，`卡片答题框`等部件",
       "参与代码集成、联调、迭代、前后端`性能优化`，根据日志定位线上Bug",
-      "使用`Python`对已爬取的游戏评论抽样生成标注数据集,生成算法评价"
+      "使用`Python`对已爬取的游戏评论抽样生成标注数据集，生成算法评价"
     ],
     "stack": ["Java","JavaScript","Python","SQL/MySQL","Bootstrap","jQuery","JUnit","JMock","Axure"]
   },{
@@ -90,9 +89,9 @@
     "project_type": "personal",
      "name":"知识图谱-Slot Filling/Entity Linking",
      "description":[
-       "使用`SVM`与规则完成了维基百科Infobox `Slot Filling`算法",
+       "使用 `SVM` 与规则完成了维基百科Infobox `Slot Filling`算法",
        "使用`朴素贝叶斯`实现了`Entity Linking`算法，加入实体类型判断提升主题一致性，TAC 2015 EDL第二名"
-       ]  
+       ]
   }],
   "skills": [
   {
@@ -100,10 +99,10 @@
     "item": [{
       "summary": "`Hive`/`Hadoop`/`Perl`/`Python`",
       "description": [
-        "熟悉`Hive QL`，会写复杂的查询，了解`HQL基础`与`进阶`知识，了解`UDF`开发；会用`Sqoop`，了解`Hadoop`与`HDFS`",
-        "了解常见的`HQL优化`技巧并能在项目中加以实践，会排查常见数据质量故障",
-        "熟练运用 `Perl` / `Python`开发ETL脚本，会用`Python`写`爬虫`,会用`正则`",
-        "熟悉`Bash`，能开发自动化脚本，熟练运用`Linux`命令"
+        "熟悉 `Hive QL`，会写复杂的查询，了解 `HQL基础` 与 `进阶` 知识，了解 `UDF` 开发；会用 `Sqoop` ，了解 `Hadoop` 与 `HDFS`",
+        "了解常见的 `HQL优化` 技巧并能在项目中加以实践，会排查常见数据质量故障",
+        "熟练运用 `Perl` / `Python` 开发ETL脚本，会用`Python`写`爬虫`，会用`正则`",
+        "熟悉 `Bash` ，能开发自动化脚本，熟练运用 `Linux` 命令"
       ]
     }]
   },{
@@ -111,13 +110,13 @@
     "item": [{
       "summary": "`Javascript/CSS/HTML`",
       "description":[
-      "熟练使用`jQuery`/`ECharts`/`D3.js`完成开发，会用`Chrome DevTools`调试",
-      "熟练使用`Bootstrap`完成简单的页面布局，能按照交互稿完成页面的开发",
-      "使用`Jade`/`Gulp`生成了`这份简历`（见`Github`）"]
+      "熟练使用 `jQuery`/`ECharts`/`D3.js` 完成开发，会用 `Chrome DevTools` 调试",
+      "熟练使用 `Bootstrap` 完成简单的页面布局，能按交互稿完成页面的开发",
+      "使用 `Jade`/`Gulp` 生成了`这份简历`（见`Github`）"]
     },{
       "summary": "`Java`/`Python`",
       "description": [
-        "熟悉`Java`/`Python`，会用 `Spring`/`Django` 搭建简单的后端与数据库交互及提供 `RESTful API`，会用 `JUnit` 编写测试"
+        "熟悉 `Java`/`Python`，会用 `Spring`/`Django` 搭建后端及提供 `RESTful API`，会用 `JUnit` 编写测试"
         ]
     },{
       "summary": "`其他`",
@@ -128,7 +127,6 @@
   },{
     "type": "miscellaneous",
     "item": [
-      
       "CET-4:`651`，CET-6:`619`，听说读写优秀"
     ]
   }]
