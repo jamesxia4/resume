@@ -5,7 +5,6 @@ module.exports = {
     skill_type: {
         "dw": "商业智能/数据仓库/数据挖掘",
         "web": "Web 开发",
-        "algo": "机器学习算法实践",
         "miscellaneous": "其他"
             },
     education_type: {

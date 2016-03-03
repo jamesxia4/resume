@@ -3,7 +3,7 @@
   "resume_title": "夏元昉 - 个人简历",
   "name": "夏元昉",
   "repo": "https://github.com/jamesxia4/resume.git",
-  "job_description": ["商业智能研究员", "数据仓库工程师"],
+  "job_description": ["商业智能研究员", "数据仓库工程师","数据挖掘工程师"],
   "contact": {
     "phone": "13701890718",
     "email": "johnnyrxia4@126.com",
@@ -50,7 +50,7 @@
     "type": "internship",
     "techtype": "dw",
     "place": "滴滴出行大数据研究院-代驾数仓",
-    "start": "2016.02",
+    "start": "2016.01",
     "end": "至今",
     "name": "数据仓库开发",
     "description": [
@@ -62,7 +62,7 @@
       "独立完成了`客服门户`一期，使用`Lateral View`与`UDTF`分层分析投诉原因",
       "参与了快的数仓`遗留代码`向滴滴集群的迁移工作，独立完成了部分代码的`优化与修复`，例如:",
       "`减少嵌套`层数、`select *`、先限分区再限字段、`先取数后计算`、`JVM`重用、参数调整",
-      "使用Python正则替换的方法实现了快的代码的批量迁移",
+      "编写Python脚本，使用正则替换的方法实现了快的代码的批量迁移",
       "日常负责`核心KPI`报表、`司机画像`、`城市运力热力图`、快的`UDF`的维护",
       "参与数据质量检查，根据DW/DM层数据错误定位ODS层故障",
       "参与上游`需求对接`与下游后台开发`联调`"
@@ -84,6 +84,15 @@
       "使用`Python`对已爬取的游戏评论抽样生成标注数据集,生成算法评价"
     ],
     "stack": ["Java","JavaScript","Python","SQL/MySQL","Bootstrap","jQuery","JUnit","JMock","Axure"]
+  },{
+     "type": "project",
+    "techtype": "dw",
+    "project_type": "personal",
+     "name":"知识图谱-Slot Filling/Entity Linking",
+     "description":[
+       "使用`SVM`与规则完成了维基百科Infobox `Slot Filling`算法",
+       "使用`朴素贝叶斯`实现了`Entity Linking`算法，加入实体类型判断提升主题一致性，TAC 2015 EDL第二名"
+       ]  
   }],
   "skills": [
   {
@@ -94,18 +103,9 @@
         "熟悉`Hive QL`，会写复杂的查询，了解`HQL基础`与`进阶`知识，了解`UDF`开发；会用`Sqoop`，了解`Hadoop`与`HDFS`",
         "了解常见的`HQL优化`技巧并能在项目中加以实践，会排查常见数据质量故障",
         "熟练运用 `Perl` / `Python`开发ETL脚本，会用`Python`写`爬虫`,会用`正则`",
-        "熟悉`Bash`脚本开发，能开发自动化脚本，熟练运用`Linux`命令"
+        "熟悉`Bash`，能开发自动化脚本，熟练运用`Linux`命令"
       ]
     }]
-  },{
-     "type":"algo",
-     "item":[{
-       "summary":"`知识图谱-Slot filling/Entity Linking`",
-       "description":[
-       "使用`libsvm`与规则完成了维基百科Infobox `Slot-filling`算法",
-       "使用`朴素贝叶斯`实现了`实体链接`算法，加入实体类型判断提升主题一致性"
-       ]
-     }]
   },{
     "type": "web",
     "item": [{
@@ -115,19 +115,20 @@
       "熟练使用`Bootstrap`完成简单的页面布局，能按照交互稿完成页面的开发",
       "使用`Jade`/`Gulp`生成了`这份简历`（见`Github`）"]
     },{
-      "summary": "`Java(Spring)`/`Python(Django)`",
+      "summary": "`Java`/`Python`",
       "description": [
-        "熟悉`Java`/`Python`，会用 `Spring`/`Django` 搭建简单的后端与数据库交互及提供 `RESTful API`，会用 `JUnit`/`JMock` 编写测试"
+        "熟悉`Java`/`Python`，会用 `Spring`/`Django` 搭建简单的后端与数据库交互及提供 `RESTful API`，会用 `JUnit` 编写测试"
         ]
     },{
       "summary": "`其他`",
       "description": [
-        "有使用 `MySQL`、`Apache反向代理`的经验"]
+        "有使用 `MySQL`、`Apache反向代理`的经验",
+        "日常使用 `Git` 与 `Vim` / `IntelliJ` / `WebStorm`，也乐于尝试新工具"]
     }]
   },{
     "type": "miscellaneous",
     "item": [
-      "日常使用 `Git` 与 `Vim` / `IntelliJ` / `WebStorm`，也乐于尝试新工具",
+      
       "CET-4:`651`，CET-6:`619`，听说读写优秀"
     ]
   }]
