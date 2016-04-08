@@ -1,15 +1,15 @@
 module.exports = {
     experience_type: {
-        "internship": "（实习）"
+        "internship": "(Intern)"
     },
     skill_type: {
-        "dw": "商业智能/数据仓库/数据挖掘",
-        "web": "Web 开发",
-        "miscellaneous": "其他"
+        "dw": "BI/Data Warehouse/Data Mining",
+        "web": "Web Dev",
+        "miscellaneous": "English"
             },
     education_type: {
-        "undergraduate": "（本科）",
-        "master": "（硕士）"
+        "undergraduate": "(Undergraduate)",
+        "master": "(Master)"
     },
     link_type: {
         "zhihu": "知乎",
@@ -41,6 +41,6 @@ module.exports = {
         demo: "Demo"
     },
     project_type: {
-        "personal": "个人项目"
+        "personal": "Thesis project"
     }
 };

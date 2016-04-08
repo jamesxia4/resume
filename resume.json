@@ -1,9 +1,9 @@
 {
   "data_lang": "zh-CN",
   "resume_title": "夏元昉 - 个人简历",
-  "name": "夏元昉",
+  "name": "Yuanfang Xia",
   "repo": "https://github.com/jamesxia4/resume.git",
-  "job_description": ["商业智能研究员", "数据仓库工程师","数据挖掘工程师"],
+  "job_description": ["Data Warehouse Engineer"],
   "contact": {
     "phone": "13701890718",
     "email": "johnnyrxia4@126.com",
@@ -13,7 +13,7 @@
     "blog": {
       "url": "http://blog.jamesxia4.me"
     },
-    "address":"浙江大学玉泉校区25舍220室"
+    "address":"Room 220, Dorm 25, Zhejiang University (Yuquan)"
   },
   "links": [{
     "type": "repo",
@@ -29,67 +29,66 @@
   }],
   "education": [{
     "type": "master",
-    "name": "浙江大学",
-    "major": "计算机科学与技术",
+    "name": "Zhejiang University",
+    "major": "Computer Science ",
     "start": "2014",
-    "end": "至今",
+    "end": "Now",
     "honor": [
-      "TAC 2015 EDL Track 第二名"
+      "TAC 2015 EDL Track 2nd Place"
     ]
   },{
     "type": "undergraduate",
-    "name": "上海交通大学",
-    "major": "计算机科学与技术",
+    "name": "Shanghai Jiao Tong University",
+    "major": "Computer Science ",
     "start": "2010",
     "end": "2014",
     "honor": [
-      "MCM/ICM 2013 美国大学生数学建模竞赛 二等奖"
+      "MCM 2013 Meritorious, ISLPED 2015 (CCF Rank C)"
     ]
   }],
   "experience": [{
     "type": "internship",
     "techtype": "dw",
-    "place": "滴滴出行大数据研究院-代驾数仓",
+    "place": "Institute of Bigdata Research, Didichuxing",
     "start": "2016.01",
-    "end": "至今",
-    "name": "数据仓库开发",
+    "end": "Now",
+    "name": "Data Warehouse Engineer",
     "description": [
-      "使用 `Hive`/`Hadoop`/`Perl`/`Python` 完成代驾数仓开发",
-      "参与快的`遗留代码`向滴滴集群的迁移工作，独立完成部分代码的`性能优化`，使用`减少子查询`/`select *`/`先限分区再限字段`/`先取数后计算`/`JVM重用`/`参数调整`等方法解决迁移后超时的问题",
-      "参与代驾自营司机客户端日报开发，使用`动态分区`统计客户端每日累计在线时长计算日薪",
-      "独立完成`乘客画像`一、二期，了解画像类开发常用指标，解决了`数据倾斜`问题",
-      "独立完成滴滴快的代金券`数仓对接`与券报表开发，使用 `grouping sets`/`rollup`/`cube` 支持多维多层次分析",
-      "独立完成\"暗夜\"`网安`数仓开发，使用`开窗函数`实现了订单`抽样`",
-      "独立完成`客服门户`一期，使用 `Lateral View`/`UDTF` 分层分析投诉原因",
-      "编写`Python`脚本，使用`正则`替换的方法实现了快的代码的批量迁移",
-      "日常负责`核心KPI`报表、`司机画像`、`城市运力热力图`、快的 `UDF` 的维护",
-      "参与数据质量检查与故障定位、上游`需求对接`与下游后台开发`联调`，负责`LBS` `binlog`入库"
+      "Using `Hive`/`Hadoop`/`Perl`/`Python` to develop reports for designated driver products",
+      "`Legacy code migration and optimization` for Kuaidadi data warehouse",
+      "Wage report development for designated driver using `dynamic partition`",
+      "Designed and developed `Passenger portrait`, fixed `skew data` problem",
+      "`Coupon usage report` development，using `grouping sets`/`rollup`/`cube` to support multi-lateral analysis",
+      "National Security Project, irregular driver/passenger censor and sampling",
+      "`CRM Portal`, using `Lateral View`/`UDTF` for user complaint analysis",
+      "Responsible for maintenance of `KPI` Report, `Driver Portrait`, `City Driver Heatmap`, Kuaidadi `UDF`",
+      "Other data quality troubleshooting routine, `LBS` `binlog` parsing and warehousing"
       ],
     "stack": ["Hive","Hadoop","Perl","Python"]
   }, {
     "type": "internship",
     "techtype": "dw",
-    "place": "网易游戏GameUX-CoolData研究组",
+    "place": "CoolData Research, NetEase GameUX",
     "start": "2015.08",
     "end": "2016.01",
-    "name": "数据工具开发",
+    "name": "Bigdata Dev Engineer",
     "description": [
-      "调研竞品`腾讯 WeTest` 舆情监控系统语料标注模块、`数据堂`众标平台",
-      "使用 `Sphinx`/`Markdown`/`MindManager` 完善设计文档、使用 `Axure` 独立完成原型开发、与UI配合迭代交互稿、完成数据库设计",
-      "基于 `Spring` 独立完成后端开发，着重了解了 `Spring DAO` ，使用 `JUnit`/`JMock` 完成测试",
-      "根据交互稿基于 `jQuery` 独立完成前端开发，手写了`进度条`，`卡片答题框`等部件",
-      "参与代码集成、联调、迭代、前后端`性能优化`，根据日志定位线上Bug",
-      "使用`Python`对已爬取的游戏评论抽样生成标注数据集，生成算法评价"
+      "Research of opinion mining products: `Tencent WeTest`, `Datatang`",
+      "Drafted PRD documents using `Sphinx`, `Markdown`, `MindManager`, used `Axure` for prototyping, coooperated with UI, database design",
+      "Finished back-end using `Spring` and `Spring DAO`, tested with `JUnit`/`JMock`",
+      "Finished front-end using `jQuery`, wrote several gadgets ",
+      "System integration, front-end/back-end performance tuning and troubleshooting",
+      "`Python` automation scripts for comments sampling"
     ],
     "stack": ["Java","JavaScript","Python","SQL/MySQL","Bootstrap","jQuery","JUnit","JMock","Axure"]
   },{
      "type": "project",
     "techtype": "dw",
     "project_type": "personal",
-     "name":"知识图谱-Slot Filling/Entity Linking",
+     "name":"Knowledge Graph-Slot Filling/Entity Linking",
      "description":[
-       "使用 `SVM` 与规则完成了维基百科Infobox `Slot Filling`算法",
-       "使用`朴素贝叶斯`实现了`Entity Linking`算法，加入实体类型判断提升主题一致性，TAC 2015 EDL第二名"
+       "Develop a system for Wikipedia Infobox `Slot Filling` using SVM and feature engineering",
+       "Implementing `Naive Bayes` on `Entity Linking`"
        ]
   }],
   "skills": [
@@ -98,10 +97,9 @@
     "item": [{
       "summary": "`Hive`/`Hadoop`/`Perl`/`Python`",
       "description": [
-        "熟悉 `Hive QL`，会写复杂的查询，了解 `HQL基础` 与 `进阶` 知识，了解 `UDF` 开发；会用 `Sqoop` ，了解 `Hadoop` 与 `HDFS`",
-        "了解常见的 `HQL优化` 技巧并能在项目中加以实践，会排查常见数据质量故障",
-        "熟练运用 `Perl` / `Python` 开发ETL脚本，会用`Python`写`爬虫`，会用`正则`",
-        "熟悉 `Bash` ，能开发自动化脚本，熟练运用 `Linux` 命令"
+        "Deep understanding in `Hive QL`, familiar with basic and advanced `HQL`，familiar with `UDF`, `Sqoop`, `Hadoop` and `HDFS`",
+        "Familiar with `HQL Optimization` techniques ",
+        "Familiar with `Bash` and `Linux`"
       ]
     }]
   },{
@@ -109,24 +107,23 @@
     "item": [{
       "summary": "`Javascript/CSS/HTML`",
       "description":[
-      "熟练使用 `jQuery`/`ECharts`/`D3.js` 完成开发，会用 `Chrome DevTools` 调试",
-      "熟练使用 `Bootstrap` 完成简单的页面布局，能按交互稿完成页面的开发",
-      "使用 `Jade`/`Gulp` 生成了`这份简历`（见`Github`）"]
+      "Proficient in `jQuery`/`ECharts`/`D3.js`/`Bootstrap`",
+      "Using `Jade`/`Gulp` to generate `this resume`(See `Github`)"]
     },{
       "summary": "`Java`/`Python`",
       "description": [
-        "熟悉 `Java`/`Python`，会用 `Spring`/`Django` 搭建后端及提供 `RESTful API`，会用 `JUnit` 编写测试"
+        "Proficient in `Java`/`Python`, familiar with `Spring`/`Django`"
         ]
     },{
-      "summary": "`其他`",
+      "summary": "`Misc`",
       "description": [
-        "有使用 `MySQL`、`Apache反向代理`的经验",
-        "日常使用 `Git` 与 `Vim` / `IntelliJ` / `WebStorm`，也乐于尝试新工具"]
+        "Familiar with `MySQL`, `Apache`",
+        "Proficient in `Git` / `Vim` / `IntelliJ` / `WebStorm`"]
     }]
   },{
     "type": "miscellaneous",
     "item": [
-      "CET-4:`651`，CET-6:`619`，听说读写优秀"
+      "CET-4:`651`, CET-6:`619`"
     ]
   }]
 }
