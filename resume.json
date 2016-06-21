@@ -3,7 +3,7 @@
   "resume_title": "夏元昉 - 个人简历",
   "name": "夏元昉",
   "repo": "https://github.com/jamesxia4/resume.git",
-  "job_description": ["商业智能研究员", "数据仓库工程师","数据挖掘工程师"],
+  "job_description": ["大数据开发工程师", "数据仓库工程师","数据研发工程师"],
   "contact": {
     "phone": "13701890718",
     "email": "johnnyrxia4@126.com",
@@ -47,16 +47,32 @@
     ]
   }],
   "experience": [{
+  "type": "internship",
+  "techtype": "dw",
+  "place": "蚂蚁金服-安全&服务及数据事业群",
+  "start": "2016.05",
+  "end": "至今",
+  "name": "数据研发",
+  "description": [
+    "参与数据问问(数据问答系统)的开发与维护",
+    "设计算法`A/B Test`测试框架并集成至现有系统",
+    "解决老系统中环境参数紧耦合问题，通过注解的方法隔离本地、开发机、线上三种环境的环境变量",
+    "调研集团现有缓存框架，为问答服务添加本地缓存",
+    "调研机器翻译工具，用平行语料与`Apache Joshua`搭建机器翻译套件作为问答系统的翻译前端",
+    "处理中文维基百科，扩充问答知识库"
+    ],
+  "stack": ["Java","StatMT","Python"]
+  }, {
     "type": "internship",
     "techtype": "dw",
     "place": "滴滴出行大数据研究院-代驾数仓",
     "start": "2016.01",
-    "end": "至今",
+    "end": "2016.05",
     "name": "数据仓库开发",
     "description": [
       "使用 `Hive`/`Hadoop`/`Perl`/`Python` 完成代驾数仓开发",
       "参与快的`遗留代码`向滴滴集群的迁移工作，独立完成部分代码的`性能优化`，使用`减少子查询`/`select *`/`先限分区再限字段`/`先取数后计算`/`JVM重用`/`参数调整`等方法解决迁移后超时的问题",
-      "参与代驾自营司机客户端日报开发，使用`动态分区`统计客户端每日累计在线时长计算日薪",
+      "使用`动态分区`统计客户端每日累计在线时长计算日薪",
       "独立完成`乘客画像`一、二期，了解画像类开发常用指标，解决了`数据倾斜`问题",
       "独立完成滴滴快的代金券`数仓对接`与券报表开发，使用 `grouping sets`/`rollup`/`cube` 支持多维多层次分析",
       "独立完成\"暗夜\"`网安`数仓开发，使用`开窗函数`实现了订单`抽样`",
@@ -74,23 +90,13 @@
     "end": "2016.01",
     "name": "数据工具开发",
     "description": [
-      "调研竞品`腾讯 WeTest` 舆情监控系统语料标注模块、`数据堂`众标平台",
-      "使用 `Sphinx`/`Markdown`/`MindManager` 完善设计文档、使用 `Axure` 独立完成原型开发、与UI配合迭代交互稿、完成数据库设计",
-      "基于 `Spring` 独立完成后端开发，着重了解了 `Spring DAO` ，使用 `JUnit`/`JMock` 完成测试",
+      "调研竞品`腾讯 WeTest` 舆情监控系统语料标注模块、`数据堂`众标平台，使用 `Sphinx`/`MindManager` 完善设计文档、使用 `Axure` 独立完成原型开发、与UI配合迭代交互稿、完成数据库设计",
+      "基于 `Spring` 独立完成后端开发，使用 `JUnit`/`JMock` 完成测试",
       "根据交互稿基于 `jQuery` 独立完成前端开发，手写了`进度条`，`卡片答题框`等部件",
       "参与代码集成、联调、迭代、前后端`性能优化`，根据日志定位线上Bug",
-      "使用`Python`对已爬取的游戏评论抽样生成标注数据集，生成算法评价"
+      "编写脚本对已爬取的游戏评论抽样生成标注数据集"
     ],
     "stack": ["Java","JavaScript","Python","SQL/MySQL","Bootstrap","jQuery","JUnit","JMock","Axure"]
-  },{
-     "type": "project",
-    "techtype": "dw",
-    "project_type": "personal",
-     "name":"知识图谱-Slot Filling/Entity Linking",
-     "description":[
-       "使用 `SVM` 与规则完成了维基百科Infobox `Slot Filling`算法",
-       "使用`朴素贝叶斯`实现了`Entity Linking`算法，加入实体类型判断提升主题一致性，TAC 2015 EDL第二名"
-       ]
   }],
   "skills": [
   {
@@ -115,7 +121,7 @@
     },{
       "summary": "`Java`/`Python`",
       "description": [
-        "熟悉 `Java`/`Python`，会用 `Spring`/`Django` 搭建后端及提供 `RESTful API`，会用 `JUnit` 编写测试"
+        "熟悉 `Java`/`Python`，会用 `Spring`/`Django` 搭建后端及提供 `RESTful API`，了解`Spring`框架"
         ]
     },{
       "summary": "`其他`",
