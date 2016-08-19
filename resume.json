@@ -3,13 +3,10 @@
   "resume_title": "夏元昉 - 个人简历",
   "name": "夏元昉",
   "repo": "https://github.com/jamesxia4/resume.git",
-  "job_description": ["大数据开发工程师", "数据仓库工程师","数据研发工程师"],
+  "job_description": ["数据研发工程师"],
   "contact": {
     "phone": "13701890718",
     "email": "johnnyrxia4@126.com",
-    "github": {
-      "id": "jamesxia4"
-    },
     "blog": {
       "url": "http://blog.jamesxia4.me"
     },
@@ -55,11 +52,11 @@
   "name": "数据研发",
   "description": [
     "参与数据问问(数据问答系统)的开发与维护",
-    "设计算法`A/B Test`测试框架并集成至现有系统",
+    "搭建算法`A/B Test`测试框架并集成至现有系统",
     "解决老系统中环境参数紧耦合问题，隔离本地、开发机、线上三种环境的环境变量",
-    "调研集团现有缓存框架，为问答服务添加本地缓存",
-    "调研机器翻译工具，用平行语料与`Apache Joshua`实现问答系统的`国际化`",
-    "基于`Gensim Doc2Vec`/`Tensorflow CNN`实现两套问句相似度服务",
+    "调研缓存框架，为问答服务添加Guava本地缓存",
+    "调研机器翻译工具与相关算法，组内分享，用平行语料与`Apache Joshua`实现翻译服务",
+    "基于`FuzzyWuzzy`/`Gensim Doc2Vec`/`Tensorflow CNN`实现三套问句相似度服务，修改Gensim源码",
     "解析中文维基百科`Infobox`，生成`三元组`持久化至Neo4j，扩充问答知识库"
     ],
   "stack": ["Java","StatMT","Python", "Tensorflow CNN", "Gensim"]
@@ -121,7 +118,7 @@
     },{
       "summary": "`Java`/`Python`",
       "description": [
-        "熟悉 `Java`/`Python`，会用 `Spring`/`Django` 搭建后端及提供 `RESTful API`，了解`Spring`框架"
+        "熟悉 `Java`/`Python`，了解`Spring`，读过`Gensim` Doc2Vec/`Tensorflow` Contrib源码"
         ]
     },{
       "summary": "`其他`",
