@@ -3,11 +3,14 @@
   "resume_title": "夏元昉 - 个人简历",
   "name": "夏元昉",
   "repo": "https://github.com/jamesxia4/resume.git",
-  "job_description": ["数据研发工程师"],
+  "job_description": ["数据开发工程师","大数据平台开发工程师","研发工程师"],
   "contact": {
     "phone": "13701890718",
     "email": "johnnyrxia4@126.com",
-    "blog": {
+    "github": {
+      "id": "jamesxia4"
+    },
+   "blog": {
       "url": "http://blog.jamesxia4.me"
     },
     "address":"浙江大学玉泉校区25舍220室"
@@ -31,9 +34,9 @@
     "start": "2014",
     "end": "至今",
     "honor": [
-      "TAC 2015 EDL Track 第二名"
+      "TAC2015 EDL Track 二等奖"
     ]
-  },{
+},{
     "type": "undergraduate",
     "name": "上海交通大学",
     "major": "计算机科学与技术",
@@ -103,7 +106,7 @@
       "description": [
         "熟悉 `Hive QL`，会写复杂的查询，了解 `HQL基础` 与 `进阶` 知识，了解 `UDF` 开发；会用 `Sqoop` ，了解 `Hadoop` 与 `HDFS`",
         "了解常见的 `HQL优化` 技巧并能在项目中加以实践，会排查常见数据质量故障",
-        "熟练运用 `Perl` / `Python` 开发ETL脚本，会用`Python`写`爬虫`，熟悉`正则`",
+        "熟练运用 `Perl` / `Python` 开发ETL脚本，了解`Scrapy爬虫`框架，熟悉`正则`",
         "熟悉 `Bash` ，能开发自动化脚本，熟练运用 `Linux` 命令"
       ]
     }]
